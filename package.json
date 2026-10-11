@@ -7,7 +7,7 @@
     "lint": "oxlint",
     "lint:fix": "oxlint --fix"
   },
-   "lint-staged": {
+  "lint-staged": {
     "*.{js,jsx,ts,tsx,mjs,cjs}": "bun run lint"
   },
   "devDependencies": {
@@ -22,10 +22,13 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "dotenv": "^18.0.5",
     "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.11.0",
     "mongoose-aggregate-paginate-v2": "^1.1.5",
     "zod": "^4.6.5"
